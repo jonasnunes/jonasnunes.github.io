@@ -11,12 +11,12 @@ header{
 }
 
 nav{
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 nav a{
     text-decoration: none;
-    margin-right: 80px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
     color: black;
@@ -47,6 +47,10 @@ main p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     padding: 10px;
+}
+
+main ul li{
+    list-style-type: none;
 }
 
 main ul li a{
