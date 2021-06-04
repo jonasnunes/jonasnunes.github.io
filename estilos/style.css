@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #37196B;
+    background-color: #292929;
 }
 
 header{
@@ -13,14 +13,14 @@ header{
     align-items: center;
     min-height: 8vh;
     background-color: #000;
-    padding: 20px;
+    padding: 1.5rem;
 }
 
 header p{
     font-family: Arial, Helvetica, sans-serif;
     font-variant: small-caps;
-    font-size: 30px;
-    color: #5E2AB8;
+    font-size: 2.2rem;
+    color: #ff9307;
 }
 
 nav a{
@@ -30,31 +30,30 @@ nav a{
 
 .nav-button{
     color: black;
-    font-size: 10px;
-    margin-left: 50px;
-    font-size: 25px;
-    padding: 5px;
-    border-radius: 20px;
+    font-size: 1.8rem;
+    margin-left: 4rem;
+    padding: .3rem;
+    border-radius: 1.2rem;
     background-color: #5E2AB8;
 }
 
 main{
     margin: auto;
-    max-width: 800px;
-    min-width: 280px;
-    padding: 10px;
-    margin-bottom: 10px;
+    max-width: 70%;
+    padding: .8rem;
+    margin-bottom: .8rem;
 }
 
 main h1{
-    font-family: cursive;
-    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    padding: .8rem;
     color: #fff;
 }
 
 main p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 1.5rem;
     padding: 10px;
     color: #fff;
 }
@@ -65,9 +64,9 @@ main ul li{
 
 main ul li a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 1.5rem;
     text-decoration: none;
-    color: yellow;
+    color: #ff9307;
     padding: 10px;
 }
 
@@ -82,9 +81,9 @@ main a:hover{
 }
 
 .language-buttons{
-    margin: 10px;
-    padding: 10px;
-    border-radius: 20px;
+    margin: .8rem;
+    padding: .8rem;
+    border-radius: 1.2rem;
     box-shadow: 3px 5px 8px #0000008a;
 }
 
@@ -93,8 +92,9 @@ main a:hover{
 }
 
 .language-buttons a{
-    font-size: 30px;
+    font-size: 2rem;
     text-decoration: none;
+    color: #5E2AB8;
 }
 
 .language-buttons a:hover{
@@ -104,18 +104,24 @@ main a:hover{
 
 footer{
     background-color: #000;
-    padding: 10px;
+    padding: .8rem;
     text-align: center;
+}
+
+footer p{
+    color: #ff9307;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    font-variant: small-caps;
 }
 
 footer a{
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: yellow;
-    font-size: 20px;
+    color: #ff9307;
+    font-size: 1.5rem;
 }
 
 footer a:hover{
     text-decoration: underline;
-    color: #fff;
 }
