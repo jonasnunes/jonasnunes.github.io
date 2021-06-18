@@ -13,7 +13,6 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
     padding: 1.5rem;
 }
 
@@ -23,6 +22,10 @@ header p{
     color: #000;
     border-left: 3px dashed black;
     border-bottom: 3px dashed black;
+}
+
+header nav{
+    display: flex;
 }
 
 nav a{
@@ -43,7 +46,7 @@ nav a:hover{
 
 main{
     margin: auto;
-    max-width: 70%;
+    max-width: 80%;
     padding: .8rem;
     margin-bottom: .8rem;
 }
@@ -77,7 +80,7 @@ main a:hover{
 
 .box-languages{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
 }
 
