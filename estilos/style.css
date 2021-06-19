@@ -71,28 +71,24 @@ main h1{
     text-align: center;
 }
 
-.projects-1{
+.projects{
     display: flex;
 }
 
-.projects-1 a{
+.projects a{
     margin: 2rem auto;
-}
-
-.projects-1 img{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: .5rem;
+    font-size: 1rem;
+    font-variant: small-caps;
+    letter-spacing: .1rem;
     border-radius: 1rem;
+}
+
+.projects img{
     width: 100%;
-}
-
-.projects-2{
-    display: flex;
-}
-
-.projects-2 a{
-    margin: 2rem auto;
-}
-
-.projects-2 img{
-    border-radius: 1rem;
-    width: 100%;
+    border-radius: 1rem 1rem 0 0;
 }
