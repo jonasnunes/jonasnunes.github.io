@@ -58,5 +58,21 @@ nav img{
 .links a:hover{
     border: 2px solid #fff;
     background-color: rgba(0, 0, 0, 0.6);
-    transition-duration: .4s;
+}
+
+main h1{
+    font-size: 2.4rem;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.projects{
+    display: flex;
+}
+
+.projects img{
+    display: flex;
+    border-radius: 1rem;
+    width: 90%;
+    justify-content: space-around;
 }
