@@ -60,19 +60,39 @@ nav img{
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+main{
+    margin: auto;
+    width: 70%;
+}
+
 main h1{
     font-size: 2.4rem;
     font-variant: small-caps;
     text-align: center;
 }
 
-.projects{
+.projects-1{
     display: flex;
 }
 
-.projects img{
-    display: flex;
+.projects-1 a{
+    margin: 2rem auto;
+}
+
+.projects-1 img{
     border-radius: 1rem;
-    width: 90%;
-    justify-content: space-around;
+    width: 100%;
+}
+
+.projects-2{
+    display: flex;
+}
+
+.projects-2 a{
+    margin: 2rem auto;
+}
+
+.projects-2 img{
+    border-radius: 1rem;
+    width: 100%;
 }
