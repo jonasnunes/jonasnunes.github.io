@@ -48,6 +48,7 @@ nav img{
     padding: 3rem;
     width: 100%;
     overflow: auto;
+    margin: auto;
 }
 
 .slideshow{
