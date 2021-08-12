@@ -44,8 +44,19 @@ nav img{
     width: 3rem;
 }
 
+main{
+    margin: auto;
+    width: 100%;
+}
+
+main h1{
+    font-size: 2.4rem;
+    font-variant: small-caps;
+    text-align: center;
+}
+
 .slider{
-    padding: 3rem;
+    padding: 3rem 0;
     width: 100%;
     overflow: auto;
     margin: auto;
@@ -57,19 +68,9 @@ nav img{
 
 .slideshow figure{
     display: inline-block;
+    margin-left: 0;
 }
 
 .prev, .next{
     display: none;
-}
-
-main{
-    margin: auto;
-    width: 70%;
-}
-
-main h1{
-    font-size: 2.4rem;
-    font-variant: small-caps;
-    text-align: center;
 }
