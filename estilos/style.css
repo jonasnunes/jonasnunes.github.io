@@ -28,18 +28,19 @@ nav{
     display: flex;
 }
 
-.logo{
-    margin: auto;
+.icons{
+    margin: 1rem auto;
+}
+
+.fab{
+    font-size: 4rem;
+    margin-right: 2rem;
+    color: #030303c5;
 }
 
 nav img{
     display: inline-flex;
     width: 3rem;
-}
-
-.links{
-    margin: 2rem auto;
-    width: 60%;
 }
 
 .links a{
@@ -92,3 +93,8 @@ main h1{
     width: 100%;
     border-radius: 1rem 1rem 0 0;
 }
+
+.carousel {
+    width: 1000px;
+    margin: 0 auto;
+  }
