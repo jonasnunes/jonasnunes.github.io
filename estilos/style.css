@@ -44,22 +44,22 @@ nav img{
     width: 3rem;
 }
 
-.links a{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    font-size: 1.5rem;
-    letter-spacing: .1rem;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 1rem;
-    margin-top: 1rem;
-    border-radius: 3rem;
+.slider{
+    padding: 3rem;
+    width: 100%;
+    overflow: auto;
 }
 
-.links a:hover{
-    border: 2px solid #fff;
-    background-color: rgba(0, 0, 0, 0.6);
+.slideshow{
+    white-space: nowrap;
+}
+
+.slideshow figure{
+    display: inline-block;
+}
+
+.prev, .next{
+    display: none;
 }
 
 main{
@@ -71,26 +71,4 @@ main h1{
     font-size: 2.4rem;
     font-variant: small-caps;
     text-align: center;
-}
-
-.projects{
-    display: flex;
-}
-
-.projects a{
-    margin: 2rem auto;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding-bottom: .5rem;
-    font-size: 1rem;
-    font-variant: small-caps;
-    letter-spacing: .1rem;
-    border-radius: 1rem;
-}
-
-.projects img{
-    width: 100%;
-    border-radius: 1rem 1rem 0 0;
 }
