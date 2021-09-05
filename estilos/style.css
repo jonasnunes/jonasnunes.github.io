@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+
 body{
     background-image: linear-gradient(to bottom, #2D6EED, #2FA8F7, #37CBE1, #2FF7DB, #2DED9C);
     background-attachment: fixed;
@@ -32,6 +37,34 @@ nav{
     font-size: 4rem;
     width: 4.8rem;
     height: 3rem;
+    position: relative;
+}
+
+.fab:hover,
+.box-imagens:hover{
+    top: -5px;
+}
+
+.apresentacao{
+    width: 90%;
+    margin: 2rem auto;
+    box-sizing: border-box;
+    padding: 2rem;
+}
+
+h1{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.apresentacao > p{
+    font-family: 'Open Sans', sans-serif;
+    margin: .8rem;
+    font-size: 1.8em;
+    text-indent: 4rem;
+    text-align: justify;
+    line-height: 1.5;
 }
 
 main{
@@ -40,6 +73,7 @@ main{
 
 .box-imagens{
     display: inline-flex;
+    position: relative;
 }
 
 .box-imagens img{
