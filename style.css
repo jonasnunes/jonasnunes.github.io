@@ -18,10 +18,14 @@ body{
   display: grid;
   place-items: center;
   background-image: linear-gradient(43deg, #F5197E, #F54B58, #F36445, #F79135, #F7A630);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 main{
   background: url(images/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 375px;
   height: 100vh;
   box-shadow: 10px 6px 8px #00000073;
@@ -92,5 +96,11 @@ ul{
 @media(max-height: 600px){
   main{
     height: 100%;
+  }
+}
+
+@media(min-height: 900px){
+  main{
+    height: 812px;
   }
 }
