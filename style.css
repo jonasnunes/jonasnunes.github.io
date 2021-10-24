@@ -83,8 +83,19 @@ ul{
   list-style: none;
   padding: 0;
   display: flex;
-  gap: 0.5rem;
+  gap: 0.8rem;
   justify-content: center;
+}
+
+.icon{
+  border-radius: .5rem;
+}
+
+.icon:hover{
+  position: relative;
+  top: -15px;
+  transform: rotate(360deg);
+  transition-duration: 1.3s;
 }
 
 @media(max-width: 380px){
