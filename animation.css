@@ -128,3 +128,9 @@
     opacity: 0;
   }
 }
+
+@media(max-width: 420px){
+  .box div{
+    display: none;
+  }
+}
