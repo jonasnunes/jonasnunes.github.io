@@ -57,6 +57,16 @@ main{
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 
+.avatar:hover > img{
+  transform: rotateY(360deg);
+  transition-duration: 5s;
+}
+
+.selo:hover{
+  transform: rotate(360deg);
+  transition-duration: 3s;
+}
+
 h1{
   font-size: 1.8rem;
   font-weight: 700;
@@ -92,10 +102,8 @@ ul{
 }
 
 .icon:hover{
-  position: relative;
-  top: -15px;
-  transform: rotate(360deg);
-  transition-duration: 1.3s;
+  transform: rotateY(360deg) translateY(-.1in);
+  transition-duration: 2s;
 }
 
 @media(max-width: 380px){
