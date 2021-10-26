@@ -88,8 +88,14 @@ p{
   margin-top: 2rem;
 }
 
+#date{
+  letter-spacing: .1rem;
+  font-size: 1.2rem;
+  font-variant: small-caps;
+}
+
 ul{
-  margin-top: 4rem;
+  margin-top: 2.6rem;
   list-style: none;
   padding: 0;
   display: flex;
