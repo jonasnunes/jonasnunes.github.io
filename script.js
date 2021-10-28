@@ -20,7 +20,7 @@ function typeWriter(element) {
   const textArray = element.innerHTML.split("");
   element.innerHTML = '';
   textArray.forEach((letter, i) => {
-     setTimeout(() => element.innerHTML += letter, 75 * i);
+     setTimeout(() => element.innerHTML += letter, 130 * i);
   });
 };
 
