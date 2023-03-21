@@ -3,7 +3,7 @@ const linksSocialMedia = {
   instagram: 'jonasnunesjj',
   facebook: 'jonas.nunes.56',
   twitter: 'jonas_nunees',
-  linkedin: 'in/jonas-nunes-🇧🇷-7b6945138/'
+  linkedin: 'in/jonasnunees/'
 }
 
 function changeSocialMediaLinks(){
